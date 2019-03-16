@@ -1,0 +1,24 @@
+{
+    "name": "paylink/soap-service",
+    "description": "Soap Service Exercise for Paylink Solutions",
+    "keywords": ["soap", "paylink", "package"],
+    "license": "DBAD",
+    "authors": [
+        {
+            "name": "Tiago Cardoso",
+            "email": "cardoso.tiago85@gmail.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=7.1"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Paylink\\SoapService\\": "src/"
+        }
+    }
+}
